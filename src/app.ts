@@ -29,8 +29,7 @@ class App {
     }
 
     private database (): void {
-      /*  mongoose.connect(process.env.DB_HOST, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => { console.log('ok') }) */
-      mongoose.connect('mongodb://localhost:27017/Senven?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false', { useNewUrlParser: true, useUnifiedTopology: true }).then(() => { console.log('ok') })
+      mongoose.connect(process.env.DB_HOST, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => { console.log('ok') })
     }
 }
 
