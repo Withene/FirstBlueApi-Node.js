@@ -11,8 +11,8 @@
     "test": "jest --detectOpenHandles"
   },
   "engines": {
-    "node": "16.10.0",
-    "npm": "7.24.0"
+    "node": "12.5.0",
+
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
